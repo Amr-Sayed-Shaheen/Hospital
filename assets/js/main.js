@@ -1,4 +1,32 @@
 
+/*--------------------------------------------------------------
+# Custom
+--------------------------------------------------------------*/
+
+var down = false;
+
+document.getElementById("bell").addEventListener("click", function() {
+var color = $(this).text();
+if(down){
+
+$('#box').css('height','0px');
+$('#box').css('opacity','0');
+down = false;
+}else{
+
+$('#box').css('height','auto');
+$('#box').css('opacity','1');
+down = true;
+
+}
+
+});
+
+
+/*--------------------------------------------------------------
+# End Custom
+--------------------------------------------------------------*/
+
 
 
 
