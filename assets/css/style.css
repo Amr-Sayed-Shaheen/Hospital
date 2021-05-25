@@ -101,7 +101,6 @@
 }
 
 .logo {
-  flex: 1;
   margin-left: 50px;
   color: #eee;
   font-size: 20px;
@@ -373,7 +372,6 @@ h1, h2, h3, h4, h5, h6 {
 * Appointment Button *
 */
 .appointment-btn {
-  margin-left: 375px;
   background: #E88C32;
   color: #fff;
   border-radius: 50px;
