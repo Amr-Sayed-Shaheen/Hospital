@@ -1266,6 +1266,7 @@ section {
 --------------------------------------------------------------*/
 .departments {
   overflow: hidden;
+  text-align: justify;
 }
 
 .departments .nav-tabs {

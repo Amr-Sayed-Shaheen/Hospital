@@ -54,8 +54,8 @@
           <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
               <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-              <li><a class="nav-link scrollto active" href="profile.html">Profile</a></li>
-              <li><a class="nav-link scrollto" href="doctors.html">Doctors</a></li>
+              <li><a class="nav-link scrollto" href="profile.html">Profile</a></li>
+              <li><a class="nav-link scrollto active" href="Patiant-Requests.html">Doctors</a></li>
               <li><a class="nav-link scrollto" href="index.html">About us</a></li>
               <li><a class="nav-link scrollto" href="index.html">Contact</a></li>
             </ul>
@@ -98,122 +98,83 @@
     </header><!-- End Header -->
   
 
-    <!-- ======= Profiles Section ======= -->
-    <section  style="padding-top:140px;" id="departments" class="departments">
+    <!-- ======= Send req Section ======= -->
+    <section style="padding-top:140px;" id="doctors" class="doctors">
       <div class="container">
 
+
+        
         <div class="section-title">
-          <h2>Profiles Details</h2>
+          <h2>Availables Doctors</h2>
         </div>
 
+
         <div class="row">
-
-          <div class="col-lg-3">
-            <ul class="nav nav-tabs flex-column">
-
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Personal Details</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Doctor Profile</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Received Requests</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Appointments</a>
-              </li>
-
-            </ul>
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/doctors/doctors-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>psychological doctor</span>
+                <br>
+                <h6>Doctor available Time :</h6>
+                <span>From 11Am to 2Pm</span>
+                <br>
+                <form>
+                  <select class="form-control form-control-sm" name="cars" id="cars" required>
+                    <option value="">Select a day</option>
+                    <option value="volvo">Saturday</option>
+                    <option value="saab">Sunday</option>
+                    <option value="mercedes">Monday</option>
+                    <option value="audi">Tuesday</option>
+                    <option value="audi">Wednesday</option>
+                    <option value="audi">Thursday</option>
+                    <option value="audi">Friday</option>
+                  </select>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows = "2" cols = "20" maxlength = "30" placeholder="About your issue" ></textarea>
+                  <br>
+                  <input class="btn btn-success" type="submit" value="Send Request">
+                </form>
+              </div>
+            </div>
           </div>
 
-          <div class="col-lg-9 mt-4 mt-lg-0">
-            <div class="tab-content">
-              
 
-              <div class="tab-pane active show" id="tab-1">
-                <div class="row">
 
-                  <div style="height: 150px;" class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <div class="account-settings">
-                          <div class="user-profile">
-                            <div class="user-avatar">
-                              <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Maxwell Admin">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-  
-                  <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
-                        <div class="card h-100">
-                          <div class="card-body">
-                            <form>
-                              <div class="form-group">
-                                <label  for="formGroupExampleInput"> Username</label>
-                                <input disabled type="text" class="form-control" id="exampleInputName1" placeholder="Your Username" >
-                              </div>
-  
-                              <div class="form-group">
-                                <label  for="formGroupExampleInput"> First name</label>
-                                <input disabled  type="text" class="form-control" id="exampleInputName1" placeholder="Your First Name" >
-                              </div>
-  
-                              <div class="form-group">
-                                <label  for="formGroupExampleInput"> Last name</label>
-                                <input disabled type="text" class="form-control" id="exampleInputName1" placeholder="Your Last Name" >
-                              </div>
-  
-                              <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input disabled type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" >
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                              </div>
-  
-                              <div class="form-group">
-                                <label for="formGroupExampleInput">Your age</label>
-                                <input disabled type="text" class="form-control" id="formGroupExampleInput" placeholder="Your age" >
-                              </div>
-  
-                              <div class="form-group">
-                                <label for="formGroupExampleInput">Account type</label>
-                                <input disabled type="text" class="form-control" id="formGroupExampleInput" placeholder="Doctor" >
-                              </div>
-  
-                              <!-- div style="padding: 10px;" class="form-group">
-                                <a href="edite-profile.html" class="signup-image-link">Click to change in profile</a>
-                              </div-->
-  
-                              <button style="background-color: #9c9797; border: black;" id="a-sub" type="submit" class="btn btn-primary">Back</button>
-                            </form>
-  
-                      </div>
-                      </div>
-                  </div>
-                  
-                </div>
+
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/doctors/doctors-2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Obesity doctor</span>
+                <br>
+                <h6>Doctor available Time :</h6>
+                <span>From 9Am to 3Pm</span>
+                <br>
+                <form>
+                  <select class="form-control form-control-sm" name="cars" id="cars" required>
+                    <option value="">Select a day</option>
+                    <option value="volvo">Saturday</option>
+                    <option value="saab">Sunday</option>
+                    <option value="mercedes">Monday</option>
+                    <option value="audi">Tuesday</option>
+                    <option value="audi">Wednesday</option>
+                    <option value="audi">Thursday</option>
+                    <option value="audi">Friday</option>
+                  </select>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows = "2" cols = "20" maxlength = "30" placeholder="About your issue" ></textarea>
+                  <br>
+                  <input class="btn btn-success" type="submit" value="Send Request">
+                </form>
               </div>
-
-              <div class="tab-pane active show" id="tab-2">
-
-              </div>
-
-
             </div>
-            </div>
-
-
-
           </div>
+
+        </div>
 
       </div>
-    </section><!-- End Profiles Section -->
+    </section><!-- End send req Section -->
 
 
 
@@ -240,7 +201,7 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="profile.html">Profile</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="doctors.html">Doctors</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="Patiant-Requests.html">Doctors</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
             </ul>
@@ -275,6 +236,8 @@
 
   </div><!-- ======= End Libraries ======= -->
 
+
 </body>
-</html>
+
+  </html>
 
