@@ -83,11 +83,11 @@
 /*------------------------------------------------*/
 .icon span {
   background: #f00;
-  padding: 7px;
+  color: white;
+  padding: 2px 7px;
   border-radius: 50%;
-  color: rgb(121, 21, 21);
   vertical-align: top;
-  margin-left: -25px
+  font-size: 10px;
 }
 
 .icon img {
